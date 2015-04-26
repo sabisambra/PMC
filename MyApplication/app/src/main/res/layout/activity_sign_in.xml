@@ -42,5 +42,35 @@
         android:layout_height="wrap_content"
         android:id="@+id/clave"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:onClick="Entrar"/>
+
+    <TextView android:text="Or" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sing In with Facebook"
+        android:id="@+id/facebook"
+        android:background="#ff090bff"
+        android:textColor="#ffffffff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sing In with FourSquare"
+        android:id="@+id/foursquare"
+        android:background="#ff090bff"
+        android:textColor="#ffffffff"/>
 
 </LinearLayout>
