@@ -71,6 +71,7 @@
         android:text="Sing In with FourSquare"
         android:id="@+id/foursquare"
         android:background="#ff090bff"
-        android:textColor="#ffffffff"/>
+        android:textColor="#ffffffff"
+        android:layout_marginTop="10dp"/>
 
 </LinearLayout>
