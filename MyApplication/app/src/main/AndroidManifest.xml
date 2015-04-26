@@ -19,10 +19,18 @@
         <activity
             android:name=".SignIn"
             android:label="@string/title_activity_sign_in"
-            android:parentActivityName=".Login">
+            android:parentActivityName=".Login" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.santiago.myapplication.Login"/>
+                android:value="com.example.santiago.myapplication.Login" />
+        </activity>
+        <activity
+            android:name=".Profile"
+            android:label="@string/title_activity_profile"
+            android:parentActivityName=".SignIn">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.santiago.myapplication.SignIn"/>
         </activity>
     </application>
 
