@@ -1,27 +1,24 @@
 package com.example.santiago.myapplication;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Spinner;
 
 
-public class Profile extends ActionBarActivity {
+public class Buscar extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile);
+        setContentView(R.layout.activity_buscar);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_profile, menu);
+        getMenuInflater().inflate(R.menu.menu_buscar, menu);
         return true;
     }
 
@@ -39,30 +36,4 @@ public class Profile extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
-
-    public void registrarLugar(View view)
-    {
-        Intent intent = new Intent(this,registrarLugar.class);
-        startActivity(intent);
-    }
-
-    public void configuraciones(View view)
-    {
-        Intent intent = new Intent(this,Settings.class);
-        startActivity(intent);
-    }
-
-    public void buscar(View view)
-    {
-        Intent intent = new Intent(this,Buscar.class);
-        startActivity(intent);
-    }
-
-    public void tuslugares(View view)
-    {
-        Intent intent = new Intent(this,Buscar.class);
-        startActivity(intent);
-    }
-
-
 }

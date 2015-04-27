@@ -87,5 +87,6 @@
         <item>F</item>
         <item>M</item>
     </string-array>
+    <string name="title_activity_buscar">Buscar</string>
 
 </resources>

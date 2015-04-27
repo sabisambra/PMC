@@ -60,7 +60,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sing In with Facebook"
+        android:text="Sign In with Facebook"
         android:id="@+id/facebook"
         android:background="#ff090bff"
         android:textColor="#ffffffff"/>
@@ -68,7 +68,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sing In with FourSquare"
+        android:text="Sign In with FourSquare"
         android:id="@+id/foursquare"
         android:background="#ff090bff"
         android:textColor="#ffffffff"

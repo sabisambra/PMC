@@ -43,6 +43,14 @@
         <activity
             android:name=".Settings"
             android:label="@string/title_activity_settings"
+            android:parentActivityName=".Profile" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.santiago.myapplication.Profile" />
+        </activity>
+        <activity
+            android:name=".Buscar"
+            android:label="@string/title_activity_buscar"
             android:parentActivityName=".Profile">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
