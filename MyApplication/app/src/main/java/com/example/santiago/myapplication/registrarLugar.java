@@ -70,7 +70,7 @@ public class registrarLugar extends ActionBarActivity {
         picker.show(getFragmentManager(),"datePicker");
     }
 
-    public void registrat(View view)
+    public void registrar(View view)
     {
         Intent intent = new Intent(this,Profile.class);
         startActivity(intent);
