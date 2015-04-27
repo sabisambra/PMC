@@ -6,6 +6,7 @@
     <string name="title_activity_sign_in">SignIn</string>
     <string name="title_activity_profile">Profile</string>
     <string name="title_activity_registrar_lugar">registrarLugar</string>
+    <string name="title_activity_settings">Settings</string>
 
     <string-array name="distancias">
         <item>50m</item>
@@ -55,5 +56,36 @@
         <item>9:00 pm</item>
         <item>9:30 pm</item>
     </string-array>
-    <string name="title_activity_settings">Settings</string>
+
+    <string-array name="edades">
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+    </string-array>
+
+    <string-array name="genero">
+        <item>F</item>
+        <item>M</item>
+    </string-array>
+
 </resources>
