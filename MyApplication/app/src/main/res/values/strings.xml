@@ -18,4 +18,5 @@
         <item>450m</item>
         <item>500m</item>
     </string-array>
+    <string name="title_activity_registrar_lugar">registrarLugar</string>
 </resources>

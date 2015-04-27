@@ -27,10 +27,18 @@
         <activity
             android:name=".Profile"
             android:label="@string/title_activity_profile"
-            android:parentActivityName=".SignIn">
+            android:parentActivityName=".SignIn" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.santiago.myapplication.SignIn"/>
+                android:value="com.example.santiago.myapplication.SignIn" />
+        </activity>
+        <activity
+            android:name=".registrarLugar"
+            android:label="@string/title_activity_registrar_lugar"
+            android:parentActivityName=".Profile">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.santiago.myapplication.Profile"/>
         </activity>
     </application>
 

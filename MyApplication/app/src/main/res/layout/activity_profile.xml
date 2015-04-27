@@ -40,4 +40,26 @@
         android:entries="@array/distancias"
         android:layout_marginTop="10dp"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:background="#fa090bf5"
+        android:onClick="buscar"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tus Lugares"
+        android:onClick="tuslugares"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Configuraciones"
+        android:onClick="configuraciones"
+        android:layout_marginTop="10dp"/>
+
 </LinearLayout>
