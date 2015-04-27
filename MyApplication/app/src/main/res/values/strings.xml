@@ -5,4 +5,17 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_sign_in">SignIn</string>
     <string name="title_activity_profile">Profile</string>
+
+    <string-array name="distancias">
+        <item>50m</item>
+        <item>100m</item>
+        <item>150m</item>
+        <item>200m</item>
+        <item>250m</item>
+        <item>300m</item>
+        <item>350m</item>
+        <item>400m</item>
+        <item>450m</item>
+        <item>500m</item>
+    </string-array>
 </resources>
