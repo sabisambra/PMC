@@ -17,24 +17,68 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nombre del lugar"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:textSize="20dp"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Tipo"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/tipo"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Direccion"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha"
+        android:onClick="showDatePickerDialog"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hora"
+        android:textSize="20dp"
         android:layout_marginTop="10dp"/>
 
     <Spinner
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:entries="@array/tipo"
-        android:layout_marginTop="10dp"/>
+        android:layout_height="wrap_content"
+        android:entries="@array/horas"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar!"
+        android:onClick="registrar"/>
+
 
 </LinearLayout>

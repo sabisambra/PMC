@@ -1,9 +1,17 @@
 package com.example.santiago.myapplication;
 
+import android.app.DatePickerDialog;
+import android.app.Dialog;
+import android.app.DialogFragment;
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.DatePicker;
+
+import java.util.Calendar;
 
 
 public class registrarLugar extends ActionBarActivity {
@@ -35,5 +43,36 @@ public class registrarLugar extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public static class DatePickerFragment extends DialogFragment implements DatePickerDialog.OnDateSetListener
+    {
+        public Dialog onCreateDialog(Bundle savedInstanceState)
+        {
+            final Calendar c = Calendar.getInstance();
+            int year = c.get(Calendar.YEAR);
+            int month = c.get(Calendar.MONTH);
+            int day = c.get(Calendar.DAY_OF_MONTH);
+
+            return new DatePickerDialog(getActivity(),this,year,month,day);
+        }
+
+        @Override
+        public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth)
+        {
+
+        }
+    }
+
+    public void showDatePickerDialog(View v)
+    {
+        DialogFragment picker = new DatePickerFragment();
+        picker.show(getFragmentManager(),"datePicker");
+    }
+
+    public void registrat(View view)
+    {
+        Intent intent = new Intent(this,Profile.class);
+        startActivity(intent);
     }
 }
