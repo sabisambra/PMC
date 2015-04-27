@@ -32,7 +32,8 @@
         android:layout_height="wrap_content"
         android:text="Tipo"
         android:layout_marginTop="10dp"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:textColor="#ff9612ff"/>
 
     <Spinner
         android:layout_width="match_parent"
@@ -45,7 +46,8 @@
         android:layout_height="wrap_content"
         android:text="Direccion"
         android:layout_marginTop="10dp"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:textColor="#ff9612ff"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -66,7 +68,8 @@
         android:layout_height="wrap_content"
         android:text="Hora"
         android:textSize="20dp"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:textColor="#ff9612ff"/>
 
     <Spinner
         android:layout_width="match_parent"
@@ -79,6 +82,4 @@
         android:layout_height="wrap_content"
         android:text="Registrar!"
         android:onClick="registrar"/>
-
-
 </LinearLayout>
