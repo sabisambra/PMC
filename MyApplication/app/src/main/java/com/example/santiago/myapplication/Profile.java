@@ -45,4 +45,11 @@ public class Profile extends ActionBarActivity {
         Intent intent = new Intent(this,registrarLugar.class);
         startActivity(intent);
     }
+
+    public void configuraciones(View view)
+    {
+        Intent intent = new Intent(this,Settings.class);
+        startActivity(intent);
+    }
+
 }
