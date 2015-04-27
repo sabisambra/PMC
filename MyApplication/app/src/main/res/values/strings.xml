@@ -5,6 +5,7 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_sign_in">SignIn</string>
     <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_registrar_lugar">registrarLugar</string>
 
     <string-array name="distancias">
         <item>50m</item>
@@ -18,5 +19,10 @@
         <item>450m</item>
         <item>500m</item>
     </string-array>
-    <string name="title_activity_registrar_lugar">registrarLugar</string>
+
+    <string-array name="tipo">
+        <item>Restaurante</item>
+        <item>Bar</item>
+    </string-array>
+
 </resources>

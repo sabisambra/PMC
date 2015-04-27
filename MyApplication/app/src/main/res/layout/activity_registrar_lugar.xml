@@ -9,6 +9,32 @@
 
     <TextView android:text="Registra el lugar que estas visitando"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#ff9612ff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre del lugar"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:entries="@array/tipo"
+        android:layout_marginTop="10dp"/>
 
 </LinearLayout>
