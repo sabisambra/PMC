@@ -40,7 +40,8 @@
         android:layout_width="match_parent"
         android:textColor="#ffffffff"
         android:layout_height="wrap_content"
-        android:id="@+id/clave"/>
+        android:id="@+id/clave"
+        android:password="true"/>
 
     <Button
         android:layout_width="match_parent"

@@ -1,28 +1,26 @@
 package com.example.santiago.myapplication;
 
 import android.content.Intent;
-import android.graphics.BitmapFactory;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageView;
 
 
-public class Login extends ActionBarActivity {
+public class SignUp extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_sign_up);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_login, menu);
+        getMenuInflater().inflate(R.menu.menu_sign_up, menu);
         return true;
     }
 
@@ -41,19 +39,20 @@ public class Login extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void signIn(View view)
+    public void verTerminos(View view)
     {
-        Intent intent = new Intent(this,SignIn.class);
+        Intent intent = new Intent(this,terminos.class);
         Bundle bundle = new Bundle();
         intent.putExtras(bundle);
         startActivity(intent);
     }
 
-    public void signUp(View view)
+    public void registrar(View view)
     {
-        Intent intent = new Intent(this,SignUp.class);
+        Intent intent = new Intent(this,Login.class);
         Bundle bundle = new Bundle();
         intent.putExtras(bundle);
         startActivity(intent);
     }
+
 }

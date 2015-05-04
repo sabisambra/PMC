@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.santiago.myapplication.SignUp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff626465">
+
+    <TextView android:text="Inserte un nombre de usuario" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        android:textColor="#ffffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inserte una contraseña"
+        android:textColor="#ffffffff"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:password="true"
+        android:textColor="#ffffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compruebe la contraseña"
+        android:textColor="#ffffffff"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:password="true"
+        android:textColor="#ffffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inserte su edad"
+        android:textColor="#ffffffff"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/edades"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffffff"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Genero"
+        android:textColor="#ffffffff"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/genero"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffffff"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acepto los terminos y condiciones"
+        android:textSize="20dp"
+        android:id="@+id/checkBox"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffffff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="verTerminos"
+        android:text="Ver Terminos y Condiciones"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="registrar"
+        android:text="Sign Up"/>
+</LinearLayout>

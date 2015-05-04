@@ -88,5 +88,8 @@
         <item>M</item>
     </string-array>
     <string name="title_activity_buscar">Buscar</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_terminos">terminos</string>
+    <string name="title_activity_mapa_registro">Map</string>
 
 </resources>
