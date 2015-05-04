@@ -1,3 +1,8 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.santiago.myapplication.registrarLugar"
@@ -5,7 +10,8 @@
     android:paddingRight="16dp"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    >
 
     <TextView android:text="Registra el lugar que estas visitando"
         android:layout_width="match_parent"
@@ -82,4 +88,14 @@
         android:layout_height="wrap_content"
         android:text="Registrar!"
         android:onClick="registrar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar en Mapa"
+        android:onClick="enMapa"/>
+
+
+
 </LinearLayout>
+</ScrollView>

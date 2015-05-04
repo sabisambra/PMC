@@ -91,5 +91,6 @@
     <string name="title_activity_sign_up">SignUp</string>
     <string name="title_activity_terminos">terminos</string>
     <string name="title_activity_mapa_registro">Map</string>
+    <string name="title_activity_registrar_en_mapa">Map</string>
 
 </resources>

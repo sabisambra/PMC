@@ -11,10 +11,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.DatePicker;
 
+import com.google.android.gms.maps.GoogleMap;
+
 import java.util.Calendar;
 
 
 public class registrarLugar extends ActionBarActivity {
+
+    private GoogleMap map;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,4 +79,11 @@ public class registrarLugar extends ActionBarActivity {
         Intent intent = new Intent(this,Profile.class);
         startActivity(intent);
     }
+
+    public void enMapa(View view)
+    {
+        Intent intent = new Intent(this,RegistrarEnMapa.class);
+        startActivity(intent);
+    }
+
 }
